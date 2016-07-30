@@ -1,0 +1,69 @@
+<!-- START Shipping & Returns  SECTION -->
+                  <div class="staff">
+                    <div class="staff-block">
+
+                      <div class="staff-section">
+                        
+                        
+                        {% if settings.srh != blank %}
+                          <div class="staff-name">{{ settings.srh }}</div>
+                          {% endif %}
+                        
+                        
+                        
+                        
+                          <div class="staff-desc">
+                            
+                            
+                            {% if settings.srtd != blank %}
+                            <p><strong>{{  settings.srtd }}</strong></p>
+                              {% endif %}
+                            
+                            
+                            
+                            <div class="staff-desc-d">
+                            {% if settings.srmd != blank %}
+                            
+                            {{ settings.srmd }}
+                            
+                            
+                            {% endif %}
+                         	</div>
+                        
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- STOP Shipping & Returns SECTION --> 
+
+
+
+
+
+
+
+                         <script language="javascript"><!--
+                  //<![CDATA[
+                  $('.staff-name').hover(function() {
+                      $(this).toggleClass('hover');
+                  });
+                  var lastItem;
+                      $('.staff-name').click(function(currentItem) {
+                          var currentItem = $(this);
+                        if ($(this).next().height() == 0) {
+                            $(lastItem).css({'font-weight':'normal'});
+                            $(lastItem).next().animate({height: '0px'},400,'swing');
+                            $(this).css({'font-weight':'bold'});
+                            $(this).next().animate({height: '242px',opacity: 1},400,'swing');
+                        } else {
+                            $(this).css({'font-weight':'normal'});
+                            $(this).next().animate({height: '0px',opacity: 1},400,'swing');
+                        }
+                        lastItem = $(this);
+                      });
+                  //]]>
+                  --></script>   
+        
