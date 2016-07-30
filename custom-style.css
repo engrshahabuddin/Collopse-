@@ -1,0 +1,105 @@
+figure .mfp-img {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.trusted-badge {
+  margin-top: 30px;
+}
+.product-single .product-single__description {
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+  .staff {      
+    margin:10px 0;
+  }
+
+
+
+      .staff-block{
+        float: left;
+        padding-bottom: 10px;
+      }
+
+
+
+      .staff-title{   
+         background-color: #1162c5; 
+        color: white;
+        padding:4px; 
+        border: solid 1px #2e3d7a;
+        border-top-left-radius:3px;
+        border-top-right-radius: 6px; 
+        font-weight: bold;
+      }
+
+
+
+
+     
+.staff-name {
+  background: #f8f8f8 none repeat scroll 0 0;
+  color: #6a6a6a;
+  font-size: 15px;
+  font-weight: 100 !important;
+  line-height: 1.563;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+      .staff-name:hover {
+        cursor: pointer;
+      }
+
+
+      .staff-section {  
+        display:inline-block; 
+      }
+
+
+
+      .staff-desc {    
+        height: 0px; padding: 3px;
+        overflow:hidden; 
+        display: block; 
+        text-align: left;
+      }
+
+
+
+      .staff-desc p {    
+        text-align: left;
+        margin-top: 5px;
+      }
+.staff-desc p strong {
+  color: rgba(28, 29, 29, 0.8);
+  font-size: 14px;
+  line-height: 1.563;
+  margin-top: 5px;
+  text-align: left;
+}
+.staff-desc h4 {
+  color: rgba(28, 29, 29, 0.8);
+  font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300 !important;
+  letter-spacing: 0.1em;
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+
+      .staff-desc img { 
+        margin: 5px 10px 5px 5px; 
+        float:left;
+        height: 185px; 
+      }
+.staff-desc-d > p {
+  color: rgba(28, 29, 29, 0.8);
+  font-size: 14px;
+}
+.product-single img.product-single__photo {
+  height: auto;
+  width: 500px;
+}
