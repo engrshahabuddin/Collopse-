@@ -1,0 +1,27 @@
+{
+    "name": "Shipping & Returns",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Shipping & Returns"
+      },
+      {
+        "type": "text",
+        "id": "srh",
+        "label": "Shipping & Returns Header",
+        "info": "Use basic HTML to format text"
+      },
+      {
+        "type": "textarea",
+        "id": "srtd",
+        "label": "Shipping & Returns Top Description",
+        "info": "Use basic HTML to format text"
+      },
+      {
+        "type": "textarea",
+        "id": "srmd",
+        "label": "Shipping & Returns Main Description",
+        "info": "Use basic HTML to format text"
+      }
+    ]
+  },
